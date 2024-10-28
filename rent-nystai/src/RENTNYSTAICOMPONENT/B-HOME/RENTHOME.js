@@ -1,97 +1,97 @@
-import React, { useState, useEffect, useRef } from "react";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faEnvelope, faLocationDot, faPhone, faShoppingBag } from '@fortawesome/free-solid-svg-icons';
-import { faFacebookF, faInstagram, faLinkedinIn, faWhatsapp, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
-import AnchorLink from "react-anchor-link-smooth-scroll";
-import './RENTHOME.css'
-import { Swiper, SwiperSlide } from 'swiper/react';
-import 'swiper/css';
-import 'swiper/css/pagination';
-import 'swiper/css/autoplay';
-import { Pagination, Autoplay } from 'swiper/modules';
-import RentalForm from "./RentalForm";
-import Isotope from 'isotope-layout';
-import Carousel from 'react-bootstrap/Carousel';
-import 'bootstrap/dist/css/bootstrap.css';
-import 'bootstrap/dist/js/bootstrap.js';
-import 'bootstrap/dist/css/bootstrap.min.css';
-// navbar-logo
-import navbarlogonys from '../IMAGE/nystai for rental-01 (1).png'
-// productlogo
-import productlogo from '../IMAGE/Tri-01.png'
-// landingbanner1
-import landingbanner1 from '../IMAGE/BANNER-1 (1).png'
-import landingbanner2 from '../IMAGE/BANNER-1 (2).png'
-import landingbanner3 from '../IMAGE/BANNER-1 (3).png'
-// aboutus
-import aboutus from '../IMAGE/aboutus.png'
-// whywe
-import whywe from '../IMAGE/question.png'
-//SERVICEPROVIDERS
-import SERVICEPROVIDERS from '../IMAGE/SERVICEPROVIDERS.png'
-// dividegreen
-import dividegreen1 from '../IMAGE/dividegreen (1).png'
-import dividegreen2 from '../IMAGE/dividegreen (2).png'
-// steps
-import step1img from '../IMAGE/card-1-img.png'
-import step2img from '../IMAGE/card-2-img.png'
-import step3img from '../IMAGE/card-3-img.png'
-import step4img from '../IMAGE/card-4-img.png'
-// serviceprovider
-import serviceprovider1 from '../IMAGE/serviceprovider1 (1).png'
-import serviceprovider2 from '../IMAGE/serviceprovider1 (2).png'
-import serviceprovider3 from '../IMAGE/serviceprovider1 (3).png'
-import serviceprovider4 from '../IMAGE/serviceprovider1 (4).png'
-// bannericon
-import bannericon1 from '../IMAGE/icons-banner-rent/icon-1.png'
-import bannericon2 from '../IMAGE/icons-banner-rent/icon-2.png'
-import bannericon3 from '../IMAGE/icons-banner-rent/icon-3.png'
-import bannericon4 from '../IMAGE/icons-banner-rent/icon-4.png'
-// area1img
-import area1img from '../IMAGE/AREAS/Warehouse.png'
-import area2img from '../IMAGE/AREAS/Bank.png'
-import area3img from '../IMAGE/AREAS/EducationalInstitute.png'
-import area4img from '../IMAGE/AREAS/Mall.png'
-import area5img from '../IMAGE/AREAS/society.png'
-import area6img from '../IMAGE/AREAS/Exhibition.png'
-import area7img from '../IMAGE/AREAS/Factory & Office.png'
-import area8img from '../IMAGE/AREAS/Construction site.png'
-import area9img from '../IMAGE/AREAS/Transport.png'
-import area10img from '../IMAGE/AREAS/hospital.png'
-import area11img from '../IMAGE/AREAS/Road traffic.png'
-import area12img from '../IMAGE/AREAS/Telecom.png'
-import area13img from '../IMAGE/AREAS/Agriculture land.png'
-import area14img from '../IMAGE/AREAS/Assessment agency.png'
-import area15img from '../IMAGE/AREAS/City surveillance.png'
-//NVR
-import NVR from '../IMAGE/CAMERA/NYSTAI AI-IoT Hybrid NVR.png'
-// camera product
-import camera1 from '../IMAGE/CAMERA/AI Fish Eye Camera 3MP+IR.png'
-import camera2 from '../IMAGE/CAMERA/AI Indoor Motion Camera.png'
-import camera3 from '../IMAGE/CAMERA/AI Motion Camera with Battery.png'
-import camera4 from '../IMAGE/CAMERA/AI Motion Outdoor Camera with Battery.png'
-import camera5 from '../IMAGE/CAMERA/AI Outdoor Motion Camera.png'
-import camera6 from '../IMAGE/CAMERA/AI+4G Fixed Dome Camera.png'
-import camera7 from '../IMAGE/CAMERA/AI-WiFi Fixed Bullet Camera 50m IR.png'
-import camera8 from '../IMAGE/CAMERA/AI-WiFi Fixed Bullet Camera with 2way Comm.png'
-import camera9 from '../IMAGE/CAMERA/AI-WiFi+LAN Fixed Bullet Camera.png'
-import camera10 from '../IMAGE/CAMERA/AI-WiFi+LAN PT Camera with 2way Comm.png'
-import camera11 from '../IMAGE/CAMERA/AI-WiFi+LAN PT Camera.png'
-import camera12 from '../IMAGE/CAMERA/Fish Eye Camera 2MP+IR.png'
-import camera13 from '../IMAGE/CAMERA/IR Motion Camera.png'
-import camera14 from '../IMAGE/CAMERA/Solar Intruder Camera.png'
-// steps
-import access1 from '../IMAGE/ACCESSORIES/Remote Control B.png'
-import access2 from '../IMAGE/ACCESSORIES/Remote Control W.png'
-import access3 from '../IMAGE/ACCESSORIES/SOS - Emergency Button Switch.png'
-import access4 from '../IMAGE/ACCESSORIES/SOS - Emergency Wall Switch.png'
-import access5 from '../IMAGE/ACCESSORIES/Solar Wireless Siren.png'
-import access6 from '../IMAGE/ACCESSORIES/Wired Siren with Battery B.png'
-import access7 from '../IMAGE/ACCESSORIES/Wireless Repeator.png'
-import access8 from '../IMAGE/ACCESSORIES/Wireless Siren with Battery S.png'
-import access9 from '../IMAGE/ACCESSORIES/Wireless Siren with Battery.png'
-import Box from '@mui/material/Box';
-import Modal from '@mui/material/Modal';
+import  React, { useState, useEffect, useRef } from "react";
+import  { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import  { faEnvelope, faLocationDot, faPhone, faShoppingBag } from '@fortawesome/free-solid-svg-icons';
+import  { faFacebookF, faInstagram, faLinkedinIn, faWhatsapp, faXTwitter, faYoutube } from '@fortawesome/free-brands-svg-icons';
+import  AnchorLink from "react-anchor-link-smooth-scroll";
+import  './RENTHOME.css'
+import  { Swiper, SwiperSlide } from 'swiper/react';
+import  'swiper/css';
+import  'swiper/css/pagination';
+import  'swiper/css/autoplay';
+import  { Pagination, Autoplay } from 'swiper/modules';
+import  RentalForm from "./RentalForm";
+import  Isotope from 'isotope-layout';
+import  Carousel from 'react-bootstrap/Carousel';
+import  'bootstrap/dist/css/bootstrap.css';
+import  'bootstrap/dist/js/bootstrap.js';
+import  'bootstrap/dist/css/bootstrap.min.css';
+// nav bar-logo
+import  navbarlogonys from '../IMAGE/nystai for rental-01 (1).png'
+// pro ductlogo
+import  productlogo from '../IMAGE/Tri-01.png'
+// lan dingbanner1      
+import  landingbanner1 from '../IMAGE/BANNER-1 (1).png'
+import  landingbanner2 from '../IMAGE/BANNER-1 (2).png'
+import  landingbanner3 from '../IMAGE/BANNER-1 (3).png'
+// abo utus
+import  aboutus from '../IMAGE/aboutus.png'
+// why we
+import  whywe from '../IMAGE/question.png'
+//SERV ICEPROVIDERS
+import  SERVICEPROVIDERS from '../IMAGE/SERVICEPROVIDERS.png'
+// div idegreen
+import  dividegreen1 from '../IMAGE/dividegreen (1).png'
+import  dividegreen2 from '../IMAGE/dividegreen (2).png'
+// ste ps
+import  step1img from '../IMAGE/card-1-img.png'
+import  step2img from '../IMAGE/card-2-img.png'
+import  step3img from '../IMAGE/card-3-img.png'
+import  step4img from '../IMAGE/card-4-img.png'
+// ser viceprovider
+import  serviceprovider1 from '../IMAGE/serviceprovider1 (1).png'
+import  serviceprovider2 from '../IMAGE/serviceprovider1 (2).png'
+import  serviceprovider3 from '../IMAGE/serviceprovider1 (3).png'
+import  serviceprovider4 from '../IMAGE/serviceprovider1 (4).png'
+// ban nericon
+import  bannericon1 from '../IMAGE/icons-banner-rent/icon-1.png'
+import  bannericon2 from '../IMAGE/icons-banner-rent/icon-2.png'
+import  bannericon3 from '../IMAGE/icons-banner-rent/icon-3.png'
+import  bannericon4 from '../IMAGE/icons-banner-rent/icon-4.png'
+// are a1img
+import  area1img from '../IMAGE/AREAS/Warehouse.png'
+import  area2img from '../IMAGE/AREAS/Bank.png'
+import  area3img from '../IMAGE/AREAS/EducationalInstitute.png' 
+import  area4img from '../IMAGE/AREAS/Mall.png'
+import  area5img from '../IMAGE/AREAS/society.png'
+import  area6img from '../IMAGE/AREAS/Exhibition.png'
+import  area7img from '../IMAGE/AREAS/Factory & Office.png'
+import  area8img from '../IMAGE/AREAS/Construction site.png'
+import  area9img from '../IMAGE/AREAS/Transport.png'
+import  area10img from '../IMAGE/AREAS/hospital.png'
+import  area11img from '../IMAGE/AREAS/Road traffic.png'
+import  area12img from '../IMAGE/AREAS/Telecom.png'
+import  area13img from '../IMAGE/AREAS/Agriculture land.png'
+import  area14img from '../IMAGE/AREAS/Assessment agency.png'
+import  area15img from '../IMAGE/AREAS/City surveillance.png'
+//NVR 
+import  NVR from '../IMAGE/CAMERA/NYSTAI AI-IoT Hybrid NVR.png'
+// cam era product
+import  camera1 from '../IMAGE/CAMERA/AI Fish Eye Camera 3MP+IR.png'
+import  camera2 from '../IMAGE/CAMERA/AI Indoor Motion Camera.png'
+import  camera3 from '../IMAGE/CAMERA/AI Motion Camera with Battery.png'
+import  camera4 from '../IMAGE/CAMERA/AI Motion Outdoor Camera with Battery.png'
+import  camera5 from '../IMAGE/CAMERA/AI Outdoor Motion Camera.png'
+import  camera6 from '../IMAGE/CAMERA/AI+4G Fixed Dome Camera.png'
+import  camera7 from '../IMAGE/CAMERA/AI-WiFi Fixed Bullet Camera 50m IR.png'
+import  camera8 from '../IMAGE/CAMERA/AI-WiFi Fixed Bullet Camera with 2way Comm.png'
+import  camera9 from '../IMAGE/CAMERA/AI-WiFi+LAN Fixed Bullet Camera.png'
+import  camera10 from '../IMAGE/CAMERA/AI-WiFi+LAN PT Camera with 2way Comm.png'
+import  camera11 from '../IMAGE/CAMERA/AI-WiFi+LAN PT Camera.png'
+import  camera12 from '../IMAGE/CAMERA/Fish Eye Camera 2MP+IR.png'
+import  camera13 from '../IMAGE/CAMERA/IR Motion Camera.png'
+import  camera14 from '../IMAGE/CAMERA/Solar Intruder Camera.png'
+// ste ps
+import  access1 from '../IMAGE/ACCESSORIES/Remote Control B.png'
+import  access2 from '../IMAGE/ACCESSORIES/Remote Control W.png'
+import  access3 from '../IMAGE/ACCESSORIES/SOS - Emergency Button Switch.png'
+import  access4 from '../IMAGE/ACCESSORIES/SOS - Emergency Wall Switch.png'
+import  access5 from '../IMAGE/ACCESSORIES/Solar Wireless Siren.png'
+import  access6 from '../IMAGE/ACCESSORIES/Wired Siren with Battery B.png'
+import  access7 from '../IMAGE/ACCESSORIES/Wireless Repeator.png'
+import  access8 from '../IMAGE/ACCESSORIES/Wireless Siren with Battery S.png'
+import  access9 from '../IMAGE/ACCESSORIES/Wireless Siren with Battery.png'
+import  Box from '@mui/material/Box';
+import  Modal from '@mui/material/Modal';
 
 const style = {
     position: 'absolute',
@@ -2287,3 +2287,13 @@ const CONTACTUS = () => {
         </>
     )
 };
+
+
+
+
+
+
+
+
+
+

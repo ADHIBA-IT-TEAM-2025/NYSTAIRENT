@@ -8,12 +8,10 @@ a:hover {
   text-decoration: none;
 }
 
-/* General Styles */
 *::selection {
   color: #1b6763;
 }
 
-/* nav-bar */
 ::-webkit-scrollbar {
   width: 0px;
 }
@@ -24,7 +22,6 @@ a:hover {
   box-sizing: border-box;
 }
 
-/* SLIDER */
 .main-banner-rent {
 
   .carousel {
@@ -41,12 +38,10 @@ a:hover {
     object-fit: cover;
   }
 
-  /* Transition effects */
   .carousel-item {
     transition: transform 0.5s ease-in-out;
   }
 
-  /* Indicators */
   .carousel-indicators {
     position: absolute;
   }
@@ -56,7 +51,6 @@ a:hover {
     background-color: #000;
   }
 
-  /* Control buttons (previous and next) */
   .carousel-control-prev,
   .carousel-control-next {
     filter: brightness(0.8);
@@ -68,7 +62,6 @@ a:hover {
     filter: brightness(1);
   }
 
-  /* Optionally hide carousel captions if not needed */
   .carousel-caption {
     position: absolute;
     top: 50%;
@@ -78,7 +71,6 @@ a:hover {
     width: 32%;
   }
 
-  /* Style for the heading */
   .carousel-caption h5 {
     font-size: 2.8em;
     font-weight: bold;
@@ -86,18 +78,15 @@ a:hover {
     margin-bottom: .35em;
   }
 
-  /* Style for the paragraph */
   .carousel-caption p {
     font-size: 1em;
     line-height: 160%;
   }
 
-  /* Target the carousel with data-bs-theme="dark" */
   .carousel[data-bs-theme="dark"] {
     color: #fff;
   }
 
-  /* Style for the carousel caption text in dark theme */
   .carousel[data-bs-theme="dark"] .carousel-caption {
     background-color: rgba(0, 0, 0, 0);
     color: #fff;
@@ -105,7 +94,6 @@ a:hover {
     border-radius: 8px;
   }
 
-  /* Dark-themed carousel indicators */
   .carousel[data-bs-theme="dark"] .carousel-indicators li {
     background-color: #666;
   }
@@ -116,20 +104,17 @@ a:hover {
     background-color: #fff;
   }
 
-  /* Dark-themed previous and next controls */
   .carousel[data-bs-theme="dark"] .carousel-control-prev-icon,
   .carousel[data-bs-theme="dark"] .carousel-control-next-icon {
     filter: invert(1);
     display: none;
   }
 
-  /* Add custom hover effects for controls in dark mode */
   .carousel[data-bs-theme="dark"] .carousel-control-prev:hover,
   .carousel[data-bs-theme="dark"] .carousel-control-next:hover {
     filter: invert(0.8);
   }
 
-  /* Ensure images look sharp and stand out in dark theme */
   .carousel[data-bs-theme="dark"] .carousel-item img {
     filter: brightness(0.9);
     object-fit: cover;
@@ -150,7 +135,6 @@ a:hover {
     opacity: 0;
   }
 }
-
 
 #mainNavbar {
   padding: 15px 0px;
@@ -194,28 +178,6 @@ a:hover {
     box-shadow: -3px 3px 5px 2px #ccc;
   }
 }
-
-
-  /* .ABOUTUS-IMG-RENT {
-    scale: 2;
-    opacity: 0;
-    background-position: center;
-    background-size: cover;
-    width: 100%;
-    animation: slow linear forwards;
-    transform: translateY(10px);
-    animation-timeline: view();
-    animation-range: entry;
-    transition: 1000ms;
-  }
-
-  @keyframes slow {
-    to {
-      scale: 1;
-      opacity: 1;
-    }
-  } */
-
 
 /* /////////////// */
 .progress-wrap {
@@ -332,7 +294,6 @@ a:hover {
   ;
 }
 
-/* whatspp */
 .nav-whatsapp {
   position: fixed;
   bottom: 25px;
@@ -648,11 +609,6 @@ select::-ms-expand {
     text-decoration: none !important;
   }
 
-  /* img {
-    width: 100%;
-    overflow: hidden;
-  } */
-
   h1,
   h2,
   h3,
@@ -893,7 +849,6 @@ select::-ms-expand {
   line-height: 100%;
   display: inline-block;
 }
-
 
 /* // */
 .step-rent-nys {
@@ -1166,10 +1121,8 @@ select::-ms-expand {
     top: 50%;
     left: 47%;
     transform: translate(-50%, -50%);
-    /* Centers the text */
     color: white;
     z-index: 1;
-    /* Ensures text appears above the image */
     width: 80%;
   }
 
@@ -2101,8 +2054,6 @@ select::-ms-expand {
   }
 }
 
-product-card
-
 /* Buttons */
 .isotope-toolbar {
   button {
@@ -2138,7 +2089,6 @@ product-card
 
 .filter-btn {
   background-color: #f0f0f0;
-  /* Default button background */
   color: #333;
   border: none;
   padding: 10px 20px;
@@ -2147,15 +2097,11 @@ product-card
 
 .filter-btn.active {
   background-color: #1b6763;
-  /* Active button background color */
   color: white;
-  /* Text color for active button */
 }
 
-/* Optional: Add hover effect */
 .filter-btn:hover {
   background-color: #ddd;
-  /* Hover effect */
 }
 
 .mainContainer {
